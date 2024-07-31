@@ -1,0 +1,32 @@
+[
+    {
+        "questions": [
+            { "text": "What is your favorite color?", "Type": "InputBox" },
+            {
+                "text": "What is your birth month?", 
+                "Type": "MultiChoiceQuestion",
+                "choices": [
+                    "January",
+                    "April",
+                    "July",
+                    "October"
+                ]
+            }
+        ]
+    },
+    {
+        "questions": [
+            {
+                "text": "What is your hobby?", 
+                "Type": "SingleChoiceQuestion",
+                "choices": [
+                    "Reading",
+                    "Traveling",
+                    "Cooking",
+                    "Sports"
+                ]
+            },
+            { "text": "What is your favorite food?", "Type": "NumericSingleInput" }
+        ]
+    }
+]
