@@ -1,15 +1,26 @@
 [
     {
         "questions": [
-            { "text": "What is your favorite color?", "Type": "InputBox" },
+            { "text": "What is your favorite way to relax?", "Type": "InputBox" },
             {
-                "text": "What is your birth month?", 
+                "text": "Which type of vacation do you prefer?", 
                 "Type": "MultiChoiceQuestion",
                 "choices": [
-                    "January",
-                    "April",
-                    "July",
-                    "October"
+                    "Beach",
+                    "Mountain",
+                    "City",
+                    "Countryside"
+                ]
+            },
+            { "text": "What is your favorite outdoor activity?", "Type": "InputBox" },
+            {
+                "text": "Which type of movies do you enjoy the most?", 
+                "Type": "MultiChoiceQuestion",
+                "choices": [
+                    "Action",
+                    "Comedy",
+                    "Drama",
+                    "Horror"
                 ]
             }
         ]
@@ -17,16 +28,79 @@
     {
         "questions": [
             {
-                "text": "What is your hobby?", 
+                "text": "What kind of books do you like to read?", 
                 "Type": "SingleChoiceQuestion",
                 "choices": [
-                    "Reading",
-                    "Traveling",
-                    "Cooking",
-                    "Sports"
+                    "Fiction",
+                    "Non-fiction",
+                    "Mystery",
+                    "Biography"
                 ]
             },
-            { "text": "What is your favorite food?", "Type": "NumericSingleInput" }
+            { "text": "How many languages do you speak?", "Type": "NumericSingleInput" },
+            { "text": "What is your favorite genre of video games?", "Type": "InputBox" },
+            {
+                "text": "How often do you play video games?", 
+                "Type": "MultiChoiceQuestion",
+                "choices": [
+                    "Daily",
+                    "Weekly",
+                    "Monthly",
+                    "Rarely"
+                ]
+            }
+        ]
+    },
+    {
+        "questions": [
+            { "text": "What is your dream job?", "Type": "InputBox" },
+            {
+                "text": "Which of the following activities do you enjoy the most?", 
+                "Type": "MultiChoiceQuestion",
+                "choices": [
+                    "Dancing",
+                    "Painting",
+                    "Writing",
+                    "Playing an instrument"
+                ]
+            },
+            { "text": "What is your favorite season?", "Type": "InputBox" },
+            {
+                "text": "Which hobbies do you engage in regularly?", 
+                "Type": "MultiChoiceQuestion",
+                "choices": [
+                    "Gardening",
+                    "Cooking",
+                    "Crafting",
+                    "Fitness"
+                ]
+            }
+        ]
+    },
+    {
+        "questions": [
+            {
+                "text": "What type of pets do you prefer?", 
+                "Type": "SingleChoiceQuestion",
+                "choices": [
+                    "Dogs",
+                    "Cats",
+                    "Birds",
+                    "No pets"
+                ]
+            },
+            { "text": "How many countries have you visited?", "Type": "NumericSingleInput" },
+            { "text": "What is your favorite cuisine?", "Type": "InputBox" },
+            {
+                "text": "How often do you try new recipes?", 
+                "Type": "MultiChoiceQuestion",
+                "choices": [
+                    "Every week",
+                    "Once a month",
+                    "Rarely",
+                    "Never"
+                ]
+            }
         ]
     }
 ]

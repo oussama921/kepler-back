@@ -36,10 +36,8 @@ export async function seedDatabase() {
             question.questionnaire = newQuestionnaire;
             if(q.choices){
               question.choices=[]
-              console.log("yes");
               
               for(const choice of q.choices){
-                  console.log("choice",choice);
                   const newChoice = new Choice();
                   newChoice.text=choice;
                   
