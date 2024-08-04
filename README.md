@@ -1,4 +1,4 @@
-# Awesome Project Build with TypeORM
+# KEPLER QUIZZ Project
 
 Steps to run this project:
 
